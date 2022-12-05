@@ -1,6 +1,6 @@
 import { PencilSquareIcon, TrashIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import supabase from "../supabse";
+import supabase from "../supabase";
 
 export default function SmoothieCard({
   smoothie,

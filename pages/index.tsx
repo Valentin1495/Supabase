@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import Header from "../components/Header";
 import SmoothieCard from "../components/SmoothieCard";
-import supabase from "../supabse";
+import supabase from "../supabase";
 
 export default function Page() {
   const [smoothies, setSmoothies] = useState<Smoothie[]>();

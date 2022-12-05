@@ -1,7 +1,7 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
-import supabase from "../supabse";
+import supabase from "../supabase";
 
 export default function Update() {
   const searchParams = useSearchParams();

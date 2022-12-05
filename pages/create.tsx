@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../components/Header";
-import supabase from "../supabse";
+import supabase from "../supabase";
 import { useRouter } from "next/navigation";
 
 export default function Create() {
